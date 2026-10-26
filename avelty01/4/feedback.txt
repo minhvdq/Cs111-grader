@@ -1,0 +1,38 @@
+Testing initiated. Sun Oct 18 02:30:33 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 28\s+Roll/Hold[?] Turn total: 28"; Read: "Turn total: 28"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 3.931
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 28\s+Roll/Hold[?] Turn total: 28"; Read: "Turn total: 28"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.
+E........
+Time: 0.138
+There was 1 failure:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.AssertionError: getPercentile percentile approximation error is too great.
+	at org.junit.Assert.fail(Assert.java:89)
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:225)
+
+FAILURES!!!
+Tests run: 9,  Failures: 1
+
+Testing completed. Sun Oct 18 02:30:39 PM EDT 2026

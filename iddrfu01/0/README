@@ -1,0 +1,59 @@
+/Accounts/turing/students/s30/iddrfu01
+    1  yppasswd
+    2  yppasswd
+    3  firefox &
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  whoami
+    9  date
+   10  pwd
+   11  clear
+   12  man pwd
+   13  history
+   14  date
+   15  history
+   16  date
+   17  clear
+   18  hooami
+   19  whoami
+   20  whoami
+   21  ls
+   22  mkdir public_html
+   23  ls -a
+   24  ls -a -l
+   25  ls -al
+   26  mkdir test
+   27  mkdir test/subdir1
+   28  cd test
+   29  mkdir subdir2
+   30  mkdir subdir3
+   31  rmdir subdir3
+   32  cd
+   33  ls test
+   34  cd test/subdir1
+   35  touch test.txt
+   36  ls
+   37  cat > test2.txt
+   38  gedit test3.txt &
+   39  clear
+   40  clear
+   41  cat test3.txt
+   42  less test3.txt
+   43  touch testrm.txt
+   44  rm testrm.txt
+   45  ls .
+   46  ls
+   47  ls ..
+   48  mv test2.txt ../subdir2
+   49  cp test3.txt ../subdir2
+   50  pwd
+   51  cp /Accounts/turing/students/s30/iddrfu01/test/subdir1/test3.txt /Accounts/turing/students/s30/iddrfu01/test/subdir2/
+   52  cp test3.txt ../subdir2
+   53  cp ~/test/subdir1/test3.txt  ~/test/subdir2
+   54  cd
+   55  find . -name *sub*
+   56  grep -Ril "test" test
+   57  grep -Ri "test" test
+   58  (pwd; history) | cat >> README

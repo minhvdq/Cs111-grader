@@ -1,0 +1,36 @@
+Testing initiated. Sun Oct 18 08:28:38 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 6\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 6	Roll/Hold? "
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 4.067
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 6\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 6	Roll/Hold? "
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.114
+
+OK (9 tests)
+
+Testing completed. Sun Oct 18 08:28:43 PM EDT 2026

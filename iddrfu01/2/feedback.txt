@@ -1,0 +1,21 @@
+Testing initiated. Sun Oct 18 08:53:49 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.expected:<...nothing to roll; ent[]er anything to hold.> but was:<...nothing to roll; ent[r]er anything to hold.>
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.113
+
+OK (9 tests)
+
+Testing completed. Sun Oct 18 08:54:50 PM EDT 2026

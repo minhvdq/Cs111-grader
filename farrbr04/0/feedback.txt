@@ -1,0 +1,42 @@
+Testing initiated. Sat Oct 17 06:12:48 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 21\s+Roll/Hold[?] Turn total: 21"; Read: "Turn total: 21	Roll/Hold? New score: 21"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 4.45
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 21\s+Roll/Hold[?] Turn total: 21"; Read: "Turn total: 21	Roll/Hold? New score: 21"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.E....E....
+Time: 0.108
+There were 2 failures:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 1940
+	at Statistics.getPercentile(Statistics.java:52)
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:224)
+2) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 49995
+	at Statistics.getPercentile(Statistics.java:52)
+	at Statistics.getResampleMeanPercentiles(Statistics.java:78)
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:252)
+
+FAILURES!!!
+Tests run: 9,  Failures: 2
+
+Testing completed. Sat Oct 17 06:12:54 PM EDT 2026

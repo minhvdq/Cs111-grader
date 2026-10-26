@@ -1,0 +1,80 @@
+/Accounts/turing/students/s30/karasa01
+    1  yppasswd 
+    2  yppasswd
+    3  firefox&
+    4  gedit Hello.java&
+    5  gedit Hello.java& public class Hello
+    6  gedit HellO.java&
+    7  javac Hello.java
+    8  javac Hello.java
+    9  cls
+   10  Hello.java &
+   11  Hello.java&
+   12  whoa;i
+   13  whoami
+   14  date
+   15  pwd
+   16  clear
+   17  man pwd
+   18  mkdir public html
+   19  pwd
+   20  CLEAR
+   21  clear
+   22  history
+   23  javac Hello.java
+   24  clear
+   25  hoomai
+   26  whoami
+   27  whoami
+   28  ls
+   29  mkdir public_html
+   30  ls
+   31  ls
+   32  ls -a
+   33  ls -a -l
+   34  mkdir test 
+   35  mkdir test/subdir1
+   36  cd test
+   37  mkdir subdir2
+   38  mkdir subdir3
+   39  rm subdir3
+   40  rmdir subdir3
+   41  cd
+   42  ls test
+   43  cd test/subdir1
+   44  touch test.txt
+   45  ls
+   46  cat>test2.txt
+   47  gedit text3.txt&
+   48  cat test3.txt
+   49  cat test3.TXT
+   50  cat test3.txt
+   51  cat text3.txt
+   52  mv text3.txt test3.txt
+   53  less test3.txt
+   54  touch testrm.txt
+   55  rm testrm.txt
+   56  ls
+   57  ls..
+   58  ls ..
+   59  mv test2.txt ../subdir2
+   60  cp test2.txt ../subdir2
+   61  cp test3.txt ../subdir2
+   62  pwd
+   63  cp /Accounts/turing/students/s30/karasa01/test/subdir1/test3.txt /Accounts/turing/students/s30/karasa01/test/subdir2/
+   64  cp ~/test/subdir1/test ~/test/subdir2
+   65  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   66  find . - name *sub*
+   67  find . -name *sub*
+   68  find . -name *sub*
+   69  cd..
+   70  cd ..
+   71  find . -name *sub*
+   72  cd~
+   73  cd
+   74  find . -name *sub*
+   75  grp Ril "test" test
+   76  grep Ril "test" test
+   77  grep -Ril "test" test
+   78  grep -Ri "test" test
+   79  (pwd; history) | cat >> README

@@ -1,0 +1,21 @@
+Testing initiated. Sun Oct 18 05:21:32 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.expected:<Player [1] score: 0> but was:<Player [2] score: 0>
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.113
+
+OK (9 tests)
+
+Testing completed. Sun Oct 18 05:22:33 PM EDT 2026

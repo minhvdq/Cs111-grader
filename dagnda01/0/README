@@ -1,0 +1,85 @@
+The Honor Pledge: "I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code." 
+
+  
+
+Name: Dawit Getachew Dagne 
+
+Gettysburg ID: 6172847 
+
+Written Questions  
+
+5. Definitions: 
+
+   - Compiler: A software tool that translates human-written source code into machine code. 
+
+   - Interpreter: A program that executes source instructions directly, line by line, at runtime. 
+
+   - Java Virtual Machine (JVM): An execution environment that translates and runs compiled Java bytecode. 
+
+  
+
+6. Relationship to `javac` and `java`: 
+
+   - `javac` is the Java compiler that transforms `.java` source files into `.class` bytecode files. 
+
+   - `java` use the Java Virtual Machine (JVM) to interpret and execute the compiled bytecode. 
+
+  
+
+7. Error Descriptions and Stages: 
+
+   - Syntax Error: Violations of Java's grammatical and formatting rules. This error is encountered during the compilation stage. 
+
+   - Logic Error:  where it compiles and executes without crashing, but outputs incorrect results. This is encountered during the execution stage. /Accounts/turing/students/s30/dagnda01/eclipse-workspace/cs111
+    1  exit
+    2  yppasswd
+    3  fi
+    4  firefox
+    5  vscode
+    6  vs code
+    7  visual studio
+    8  visual studio code
+    9  javac Hello.java
+   10  gedit Hello.java;2~
+   11  ls
+   12  gedit Hello.java;
+   13  gedit Hello.java &
+   14  javac
+   15  whoami
+   16  date
+   17  pwd
+   18  clear
+   19  man pwd
+   20  history
+   21  mkdir public_html
+   22  ls
+   23  ls -a
+   24  ls -al
+   25  mkdir test
+   26  mkdir test/subdir1
+   27  cd test
+   28  whoami
+   29  date
+   30  pwd
+   31  clear
+   32  mkdir -p public_html test/subdir1 test/subdir2 test/subdir3
+   33  rmdir test/subdir3
+   34  touch test/subdir1/test.txt
+   35  echo "This is a test." > test/subdir1/test2.txt
+   36  echo "This is another test." test/subdir1/test3.txt
+   37  echo "This is another test." > test/subdir1/test3.txt
+   38  cat test/subdir1/test3.txt
+   39  touch test/subdir1/testrm.txt
+   40  rm test/subdir1/testrm.txt
+   41  ls -a
+   42  ls -al
+   43  ls .
+   44  ls ..
+   45  mv test/subdir1/test2.txt test/subdir2/echo "this is a test." > test/subdir1/test2.txt
+   46  cp test/subdir1/test3.txt test/subdir2/
+   47  find. -name "*sub*"
+   48  grep -Rill "test" test
+   49  cd ~/eclipse-workspace/cs111
+   50  ls
+   51  find . -name "*sub*"
+   52  (pwd; history) | cat>> README

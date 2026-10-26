@@ -1,0 +1,35 @@
+Testing initiated. Sun Oct 18 05:04:09 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.expected:<[New score: 21]> but was:<[Turn total: 0]>
+E
+Time: 4.348
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.ComparisonFailure: expected:<[New score: 21]> but was:<[Turn total: 0]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:141)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.108
+
+OK (9 tests)
+
+Testing completed. Sun Oct 18 05:04:14 PM EDT 2026

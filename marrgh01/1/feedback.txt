@@ -1,0 +1,51 @@
+Testing initiated. Sun Oct 18 01:49:47 PM EDT 2026
+ERROR: README NOT FOUND.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20	Roll/Hold? Turn total: 20"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 4.461
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20	Roll/Hold? Turn total: 20"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+....E..E.E.E
+Time: 0.015
+There were 4 failures:
+1) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.NullPointerException
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:253)
+2) testResample(StatisticsJUnitTest)
+java.lang.NullPointerException
+	at StatisticsJUnitTest.testResample(StatisticsJUnitTest.java:187)
+3) testStdDev(StatisticsJUnitTest)
+java.lang.AssertionError: getStdDev failed to return the correct data population standard deviation.
+	at org.junit.Assert.fail(Assert.java:89)
+	at StatisticsJUnitTest.testStdDev(StatisticsJUnitTest.java:176)
+4) testSortedResampleMeans(StatisticsJUnitTest)
+java.lang.NullPointerException
+	at StatisticsJUnitTest.testSortedResampleMeans(StatisticsJUnitTest.java:200)
+
+FAILURES!!!
+Tests run: 9,  Failures: 4
+
+Testing completed. Sun Oct 18 01:49:53 PM EDT 2026

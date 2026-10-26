@@ -1,0 +1,99 @@
+/Accounts/turing/students/s30/sawara01/eclipse-workspace/cs111
+    1  yppasswd 
+    2  firefox &
+    3  gedit hello.java &
+    4  javac Hello.
+    5  javac Hello.java
+    6  javac Hello.java
+    7  javac hello.java 
+    8  javac hello.java 
+    9  javac hello.java 
+   10  java hallo
+   11  java hallo
+   12  java hello
+   13  java hello
+   14  yppasswd
+   15  whoami
+   16  date
+   17  man pwe
+   18  man pwd
+   19  history
+   20  gedit hello.java &
+   21  clear
+   22  history
+   23  clear
+   24  whoami
+   25  hw
+   26  home work
+   27  yppasswdd
+   28  yppasswd
+   29  whoami
+   30  date
+   31  clear
+   32  pwd
+   33  q
+   34  clear
+   35  man pwd
+   36  history
+   37  gedit hello.java &
+   38  history
+   39  mkdir
+   40  mkdi public_html
+   41  mkdir public_html
+   42  .a
+   43  mkdir
+   44  mkidir test/subdirl
+   45  cd test
+   46  cd
+   47  ls tedt
+   48  cd test/subdir
+   49  test.txt
+   50  gedit test3.txt &
+   51  ~/test/subdir1$
+   52  whoami
+   53  date
+   54  psw
+   55  cat test3.txt
+   56  less tests3.txt3
+   57  less test3.txt
+   58  touch testrm.txt
+   59  rm testrm.txt 
+   60  ls .
+   61  ls
+   62  ls..
+   63  ls ..
+   64  rm test3.txt test~
+   65  rm test3.txt~
+   66  ls
+   67  mv test2.txt ../subdir2
+   68  cp test3.txt../subdir2
+   69  pwd
+   70  cp /Accounts/turing/faculty/vneller/test/subdir1/test3.txt /Accounts/turing/faculty/vneller/test/subdir2/
+   71  pwd
+   72  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   73  cd
+   74  find . -name *sub*
+   75  grep -Ril "test" test
+   76  grep -ri "test" test
+   77  (pwd; history) | cat >> README
+   78  Less README
+   79  less README
+   80  cd
+   81  pwd
+   82  ~
+   83  ls
+   84  cd eclipse-workspace
+   85  ls
+   86  cd cs111
+   87  ls
+   88  ls
+   89  (pwd; history) | cat >> README
+
+   compiler translate the source code into machine code.
+   interpreter translate and execute code one line  at a time
+   jvm is a sofware program that run java bytecode
+   javac is the java compiler
+   java this command s
+   tart the jvm
+   the syntax error occurs when the code does not follow the rules of the programing language
+   logic eror occurs when the code is run succesfully but produce a wrong resul. 

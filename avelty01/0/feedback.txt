@@ -1,0 +1,57 @@
+Testing initiated. Sun Oct 18 02:14:20 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 15\s+Roll/Hold[?] Turn total: 15"; Read: "Turn total: 15"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 4.258
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 15\s+Roll/Hold[?] Turn total: 15"; Read: "Turn total: 15"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.E.E.E.E.E.E..E.
+Time: 0.14
+There were 7 failures:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 1920
+	at Statistics.getPercentile(Statistics.java:82)
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:224)
+2) testMax(StatisticsJUnitTest)
+java.lang.NoSuchMethodError: Statistics.getMax([D)D
+	at StatisticsJUnitTest.testMax(StatisticsJUnitTest.java:147)
+3) testMin(StatisticsJUnitTest)
+java.lang.NoSuchMethodError: Statistics.getMin([D)D
+	at StatisticsJUnitTest.testMin(StatisticsJUnitTest.java:138)
+4) testSum(StatisticsJUnitTest)
+java.lang.NoSuchMethodError: Statistics.getSum([D)D
+	at StatisticsJUnitTest.testSum(StatisticsJUnitTest.java:156)
+5) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 49995
+	at Statistics.getPercentile(Statistics.java:82)
+	at Statistics.getResampleMeanPercentiles(Statistics.java:92)
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:252)
+6) testMean(StatisticsJUnitTest)
+java.lang.NoSuchMethodError: Statistics.getMean([D)D
+	at StatisticsJUnitTest.testMean(StatisticsJUnitTest.java:165)
+7) testStdDev(StatisticsJUnitTest)
+java.lang.NoSuchMethodError: Statistics.getStdDev([D)D
+	at StatisticsJUnitTest.testStdDev(StatisticsJUnitTest.java:175)
+
+FAILURES!!!
+Tests run: 9,  Failures: 7
+
+Testing completed. Sun Oct 18 02:14:26 PM EDT 2026

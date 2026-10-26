@@ -1,0 +1,25 @@
+Testing initiated. Sun Oct 25 01:58:54 PM EDT 2026
+ERROR: README NOT FOUND.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.
+Time: 5.076
+
+OK (1 test)
+
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.115
+
+OK (9 tests)
+
+Testing completed. Sun Oct 25 01:59:00 PM EDT 2026

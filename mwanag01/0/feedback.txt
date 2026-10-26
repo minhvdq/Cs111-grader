@@ -1,0 +1,21 @@
+Testing initiated. Sun Oct 18 11:15:15 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.The first line of output should have been "You will be player <#>." where <#> is 1 or 2.  Line read: "You will be player 1"
+Testing Statistics:
+JUnit version 4.13.2
+.
+
+
+
+
+........
+Time: 0.135
+
+OK (9 tests)
+
+Testing completed. Sun Oct 18 11:16:16 PM EDT 2026

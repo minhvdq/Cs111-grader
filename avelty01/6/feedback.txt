@@ -1,0 +1,31 @@
+Testing initiated. Sun Oct 18 02:36:41 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.
+Time: 4.126
+
+OK (1 test)
+
+Testing Statistics:
+JUnit version 4.13.2
+.E....E....
+Time: 0.134
+There were 2 failures:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 2140
+	at Statistics.getPercentile(Statistics.java:85)
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:224)
+2) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 49995
+	at Statistics.getPercentile(Statistics.java:85)
+	at Statistics.getResampleMeanPercentiles(Statistics.java:96)
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:252)
+
+FAILURES!!!
+Tests run: 9,  Failures: 2
+
+Testing completed. Sun Oct 18 02:36:46 PM EDT 2026

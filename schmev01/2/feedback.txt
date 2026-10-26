@@ -1,0 +1,67 @@
+Testing initiated. Sun Oct 25 12:42:30 PM EDT 2026
+ERROR: README NOT FOUND.
+PigGame.java submitted.
+ERROR: Statistics.java NOT FOUND.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+E
+Time: 4.457
+There was 1 failure:
+1) test(PigGameJUnitTest)
+junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20"
+where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Statistics:
+JUnit version 4.13.2
+.E.E.E.E.E.E.E.E.E
+Time: 0.014
+There were 9 failures:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:224)
+	... 32 trimmed
+Caused by: java.lang.ClassNotFoundException: Statistics
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+2) testMax(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testMax(StatisticsJUnitTest.java:147)
+3) testMin(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testMin(StatisticsJUnitTest.java:138)
+4) testSum(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testSum(StatisticsJUnitTest.java:156)
+5) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:252)
+6) testMean(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testMean(StatisticsJUnitTest.java:165)
+7) testResample(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testResample(StatisticsJUnitTest.java:186)
+8) testStdDev(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testStdDev(StatisticsJUnitTest.java:175)
+9) testSortedResampleMeans(StatisticsJUnitTest)
+java.lang.NoClassDefFoundError: Statistics
+	at StatisticsJUnitTest.testSortedResampleMeans(StatisticsJUnitTest.java:199)
+
+FAILURES!!!
+Tests run: 9,  Failures: 9
+
+Testing completed. Sun Oct 25 12:42:35 PM EDT 2026

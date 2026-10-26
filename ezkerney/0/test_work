@@ -1,0 +1,70 @@
+# Change homework-specific parameters below at TODO
+#initialize
+SUBMITTER=$1
+SRC_PATH=$2
+DST_PATH=$3
+echo "$1 $2 $3"
+#TEST_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+TEST_PATH=$PWD
+REMOVE_PREFIX=${TEST_PATH%%/Courses*}
+TEST_PATH=${TEST_PATH##$REMOVE_PREFIX}
+cd $DST_PATH
+
+DATE=$(date)
+echo "Testing initiated. $DATE"
+echo "Testing initiated. $DATE" >> feedback.txt
+# TODO: Change homework-specific parameters:
+CP_FILES=" README PigGame.java Statistics.java "
+TIMEOUT_DELAY="60s"
+KILL_DELAY="60s"
+
+#copy user files
+for CP_FILE in $CP_FILES
+do
+    if eval "cp -r $SRC_PATH/$CP_FILE $DST_PATH"
+    then
+	echo "$CP_FILE submitted." >> feedback.txt
+    else
+	echo "ERROR: $CP_FILE NOT FOUND." >> feedback.txt
+    fi
+done
+
+#compile user files
+COMPILE_COMMAND="javac *.java"
+if eval $COMPILE_COMMAND
+then
+    echo "Compilation of all java files succeeded." >> feedback.txt
+else
+    echo "Compilation of java files failed with command $COMPILE_COMMAND." >> feedback.txt
+fi
+
+#copy and run JUnit tests
+TEST_FILES="$TEST_PATH/*"
+cp $TEST_FILES .
+
+JUNIT_TEST_FILES="$TEST_PATH/*JUnitTest.class"
+for JUNIT_TEST_FILE in $JUNIT_TEST_FILES
+do
+    FILENAME=${JUNIT_TEST_FILE##*/}
+    CLASSNAME=${FILENAME%%.class}
+    TESTNAME=${CLASSNAME%%JUnitTest}
+    echo "Testing $TESTNAME:" >> feedback.txt
+    JUNIT_CMD="timeout --foreground --kill-after=$KILL_DELAY $TIMEOUT_DELAY junit4 $CLASSNAME"
+#    echo "$JUNIT_CMD" >> feedback.txt
+    eval $JUNIT_CMD &>> feedback.txt
+#    RETVAL=$?
+#    echo $RETVAL >> feedback.txt
+    stty icrnl icanon echo # resets stty settings messed up by timeout
+done
+
+#clean up test files
+for $TEST_FILE in $TEST_FILES
+do
+    $TEST_FILE_COPY=${TEST_FILE##*/}
+    rm $TEST_FILE_COPY
+done
+
+chmod g+rw *
+DATE=$(date)
+echo "Testing completed. $DATE"
+echo "Testing completed. $DATE" >> feedback.txt

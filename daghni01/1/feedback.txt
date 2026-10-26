@@ -1,0 +1,26 @@
+Testing initiated. Tue Oct 20 09:33:25 PM EDT 2026
+README submitted.
+PigGame.java submitted.
+Statistics.java submitted.
+Compilation of all java files succeeded.
+Testing PigGame:
+JUnit version 4.13.2
+.The first line of output should have been "You will be player <#>." where <#> is 1 or 2.  Line read: "Welcome to the Game of Pig!"
+Testing Statistics:
+JUnit version 4.13.2
+.E....E....
+Time: 0.115
+There were 2 failures:
+1) testPercentile(StatisticsJUnitTest)
+java.lang.AssertionError: getPercentile percentile approximation error is too great.
+	at org.junit.Assert.fail(Assert.java:89)
+	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:225)
+2) testResampleMeanPercentiles(StatisticsJUnitTest)
+java.lang.AssertionError: getResampleMeanPercentiles returned a highly unlikely resample mean percentile value.
+	at org.junit.Assert.fail(Assert.java:89)
+	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:254)
+
+FAILURES!!!
+Tests run: 9,  Failures: 2
+
+Testing completed. Tue Oct 20 09:34:26 PM EDT 2026
