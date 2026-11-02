@@ -1,21 +1,28 @@
-Testing initiated. Sun Oct 18 11:15:15 PM EDT 2026
+Testing initiated. Sun Nov  1 07:41:59 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
-JUnit version 4.13.2
-.The first line of output should have been "You will be player <#>." where <#> is 1 or 2.  Line read: "You will be player 1"
-Testing Statistics:
+Testing ChompGame:
 JUnit version 4.13.2
 .
+Time: 0.015
 
+OK (1 test)
 
+Testing Chomp:
+JUnit version 4.13.2
+.
+Time: 2.127
 
+OK (1 test)
 
-........
-Time: 0.135
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.013
 
-OK (9 tests)
+OK (1 test)
 
-Testing completed. Sun Oct 18 11:16:16 PM EDT 2026
+Testing completed. Sun Nov  1 07:42:04 PM EST 2026

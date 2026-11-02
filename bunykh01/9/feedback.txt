@@ -1,0 +1,28 @@
+Testing initiated. Mon Nov  2 10:22:50 AM EST 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.
+Time: 0.015
+
+OK (1 test)
+
+Testing Chomp:
+JUnit version 4.13.2
+.
+Time: 2.127
+
+OK (1 test)
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.011
+
+OK (1 test)
+
+Testing completed. Mon Nov  2 10:22:55 AM EST 2026

@@ -1,21 +1,55 @@
-Testing initiated. Sun Oct 18 08:53:49 PM EDT 2026
+Testing initiated. Mon Nov  2 10:22:55 AM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.expected:<...nothing to roll; ent[]er anything to hold.> but was:<...nothing to roll; ent[r]er anything to hold.>
-Testing Statistics:
+.E
+Time: 0.011
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Expected toString() value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********
+], but instead had returned value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********]
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:71)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
 JUnit version 4.13.2
 .
+Time: 2.127
 
+OK (1 test)
 
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.012
 
+OK (1 test)
 
-........
-Time: 0.113
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 08:54:50 PM EDT 2026
+Testing completed. Mon Nov  2 10:22:59 AM EST 2026

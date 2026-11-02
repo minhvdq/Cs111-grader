@@ -1,0 +1,24 @@
+Testing initiated. Sun Nov  1 12:57:23 AM EDT 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.
+Time: 0.014
+
+OK (1 test)
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<CHOMP[]> but was:<CHOMP[In the game of Chomps, players bite a rectangular cookie in turn.]>
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.012
+
+OK (1 test)
+
+Testing completed. Sun Nov  1 12:58:25 AM EDT 2026

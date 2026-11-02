@@ -1,35 +1,46 @@
-Testing initiated. Sun Oct 18 09:35:09 PM EDT 2026
+Testing initiated. Sun Nov  1 09:16:53 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.expected:<Player 1 score: 2[1]> but was:<Player 1 score: 2[3]>
-E
-Time: 5.606
+.E
+Time: 0.012
 There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.ComparisonFailure: expected:<Player 1 score: 2[1]> but was:<Player 1 score: 2[3]>
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Chomp chompAt(9, 9) returns false but should return true.
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:117)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
+E
+Time: 4.12
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)
 	at junit.framework.TestCase.assertEquals(TestCase.java:260)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:89)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:84)
 	at java.lang.Thread.run(Thread.java:748)
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing DiceHistogram:
 JUnit version 4.13.2
 .
+Time: 1.014
 
+OK (1 test)
 
-
-
-........
-Time: 0.113
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 09:35:17 PM EDT 2026
+Testing completed. Sun Nov  1 09:17:00 PM EST 2026

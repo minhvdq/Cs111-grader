@@ -1,25 +1,24 @@
-Testing initiated. Sat Oct 17 06:30:44 PM EDT 2026
+Testing initiated. Fri Oct 30 05:13:44 PM EDT 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
 .
-Time: 4.955
+Time: 0.012
 
 OK (1 test)
 
-Testing Statistics:
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<The [p]layer chomping the l...> but was:<The [P]layer chomping the l...>
+Testing DiceHistogram:
 JUnit version 4.13.2
 .
+Time: 1.012
 
+OK (1 test)
 
-
-
-........
-Time: 0.105
-
-OK (9 tests)
-
-Testing completed. Sat Oct 17 06:30:50 PM EDT 2026
+Testing completed. Fri Oct 30 05:14:47 PM EDT 2026

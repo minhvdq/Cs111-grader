@@ -1,40 +1,64 @@
-Testing initiated. Sun Oct 18 02:21:05 PM EDT 2026
+Testing initiated. Sun Nov  1 11:00:01 AM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.Expected output line of the form: "Turn total: 30\s+Roll/Hold[?] Turn total: 30"; Read: "Turn total: 30"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-E
-Time: 6.266
+.E
+Time: 0.011
 There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 30\s+Roll/Hold[?] Turn total: 30"; Read: "Turn total: 30"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Expected toString() value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6******  
+7******  
+], but instead had returned value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6******
+7******
+]
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.TestCase.fail(TestCase.java:223)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:138)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:71)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<5*******[ ]> but was:<5*******[]>
+E
+Time: 4.526
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<5*******[ ]> but was:<5*******[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:92)
 	at java.lang.Thread.run(Thread.java:748)
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing DiceHistogram:
 JUnit version 4.13.2
 .
+Time: 1.014
 
+OK (1 test)
 
-E........
-Time: 0.139
-There was 1 failure:
-1) testPercentile(StatisticsJUnitTest)
-java.lang.AssertionError: getPercentile percentile approximation error is too great.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:225)
-
-FAILURES!!!
-Tests run: 9,  Failures: 1
-
-Testing completed. Sun Oct 18 02:21:12 PM EDT 2026
+Testing completed. Sun Nov  1 11:00:08 AM EST 2026

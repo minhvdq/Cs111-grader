@@ -1,26 +1,67 @@
-Testing initiated. Tue Oct 20 09:31:59 PM EDT 2026
+Testing initiated. Sun Nov  1 02:51:27 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.The first line of output should have been "You will be player <#>." where <#> is 1 or 2.  Line read: "Welcome to the Game of Pig!"
-Testing Statistics:
-JUnit version 4.13.2
-.E....E....
-Time: 0.114
-There were 2 failures:
-1) testPercentile(StatisticsJUnitTest)
-java.lang.AssertionError: getPercentile percentile approximation error is too great.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:225)
-2) testResampleMeanPercentiles(StatisticsJUnitTest)
-java.lang.AssertionError: getResampleMeanPercentiles returned a highly unlikely resample mean percentile value.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:254)
+.E
+Time: 0.01
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Expected toString() value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********
+9********
+], but instead had returned value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********
+9********]
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:71)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
 
 FAILURES!!!
-Tests run: 9,  Failures: 2
+Tests run: 1,  Failures: 1
 
-Testing completed. Tue Oct 20 09:33:00 PM EDT 2026
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<5*******[ ]> but was:<5*******[]>
+E
+Time: 3.525
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<5*******[ ]> but was:<5*******[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:92)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.012
+
+OK (1 test)
+
+Testing completed. Sun Nov  1 02:51:33 PM EST 2026

@@ -14,7 +14,7 @@ DATE=$(date)
 echo "Testing initiated. $DATE"
 echo "Testing initiated. $DATE" >> feedback.txt
 # TODO: Change homework-specific parameters:
-CP_FILES=" README PigGame.java Statistics.java "
+CP_FILES=" README DiceHistogram.java ChompGame.java Chomp.java "
 TIMEOUT_DELAY="60s"
 KILL_DELAY="60s"
 

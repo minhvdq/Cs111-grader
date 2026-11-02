@@ -1,67 +1,57 @@
-Testing initiated. Sun Oct 25 12:42:30 PM EDT 2026
+Testing initiated. Sun Nov  1 02:47:46 PM EST 2026
 ERROR: README NOT FOUND.
-PigGame.java submitted.
-ERROR: Statistics.java NOT FOUND.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+ERROR: Chomp.java NOT FOUND.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-E
-Time: 4.457
+.E
+Time: 0.011
 There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 20\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 20"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+1) test(ChompGameJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at ChompGame.checkIfChomped(ChompGame.java:27)
+	at ChompGame.isLegalChomp(ChompGame.java:39)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:112)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.E
+Time: 0.011
+There was 1 failure:
+1) test(ChompJUnitTest)
+java.lang.NoClassDefFoundError: Chomp
+	at ChompJUnitTest.test(ChompJUnitTest.java:152)
+	... 25 trimmed
+Caused by: java.lang.ClassNotFoundException: Chomp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 27 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.Number of asterisks for roll sum 7 is outside probable bounds.
+E
+Time: 1.014
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: Number of asterisks for roll sum 7 is outside probable bounds.
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.TestCase.fail(TestCase.java:223)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:101)
 	at java.lang.Thread.run(Thread.java:748)
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
 
-Testing Statistics:
-JUnit version 4.13.2
-.E.E.E.E.E.E.E.E.E
-Time: 0.014
-There were 9 failures:
-1) testPercentile(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testPercentile(StatisticsJUnitTest.java:224)
-	... 32 trimmed
-Caused by: java.lang.ClassNotFoundException: Statistics
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 34 more
-2) testMax(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testMax(StatisticsJUnitTest.java:147)
-3) testMin(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testMin(StatisticsJUnitTest.java:138)
-4) testSum(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testSum(StatisticsJUnitTest.java:156)
-5) testResampleMeanPercentiles(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:252)
-6) testMean(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testMean(StatisticsJUnitTest.java:165)
-7) testResample(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testResample(StatisticsJUnitTest.java:186)
-8) testStdDev(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testStdDev(StatisticsJUnitTest.java:175)
-9) testSortedResampleMeans(StatisticsJUnitTest)
-java.lang.NoClassDefFoundError: Statistics
-	at StatisticsJUnitTest.testSortedResampleMeans(StatisticsJUnitTest.java:199)
-
-FAILURES!!!
-Tests run: 9,  Failures: 9
-
-Testing completed. Sun Oct 25 12:42:35 PM EDT 2026
+Testing completed. Sun Nov  1 02:47:49 PM EST 2026

@@ -1,0 +1,37 @@
+Testing initiated. Mon Nov  2 10:16:40 AM EST 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.
+Time: 0.016
+
+OK (1 test)
+
+Testing Chomp:
+JUnit version 4.13.2
+.
+Time: 2.128
+
+OK (1 test)
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: "2 *"
+E
+Time: 1.013
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: "2 *"
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:85)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Mon Nov  2 10:16:45 AM EST 2026

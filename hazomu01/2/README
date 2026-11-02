@@ -1,0 +1,123 @@
+Honor Pledge
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code.
+MUHAMMAD SHEHRYAL HAZOOR ELAHI
+6161531
+Questions
+5 1-compiler
+A compiler converts a high level language into low level language, to be more specific converts source code into byte code which is then executed by the jvm.
+2-interpreter
+A interpreter executes code line by line, stops when it reaches an error
+3-Java virtual machine
+after compiler creates bytcode the jvm executes and runs that code.
+6 javac (basically is a command that converts or compile your java code ) java(this command runs the code in the jvm)
+**7-- logic error(**basically means that your code follows the syntax and runs correctly but not as you want to or doesn't perform what you want it to )   --- syntax error(syntax error basically means you wrote the code incorrectly so that the compiler cant process is such as missing semicolon at the end of print statemnt)
+
+
+
+
+
+
+
+
+
+/Accounts/turing/students/s30/hazomu01
+   24  javac Hello.java
+   25  java Hello
+   26  whoami
+   27  date
+   28  pwd
+   29  clear
+   30  man pwd
+   31  whoami
+   32  date
+   33  pwd
+   34  clear
+   35  man pwd
+   36  history
+   37  date
+   38  history
+   39  hoami
+   40  whoami
+   41  mkdir public_html
+   42  1s -a -1
+   43  ls -al
+   44  mkdir test
+   45  mkdir test/subdir1
+   46  ls
+   47  mkdir public_html
+   48  ls -a
+   49  ls -a -1
+   50  mkdir test
+   51  mkdir test/subdir1
+   52  cd test
+   53  ls
+   54  subdir1
+   55  mkdir subdir2
+   56  mkdir subdir3
+   57  rmddir subdir3
+   58  cs
+   59  lsls
+   60  cd t
+   61  clear
+   62  whoami
+   63  date
+   64  pwd
+   65  clear
+   66  man pwd
+   67  hoami
+   68  whoami
+   69  mkdir public_html
+   70  ls
+   71  ls -a
+   72  ls -a -1
+   73  mkdir test
+   74  mkdir test/subdir1
+   75  cd test
+   76  ls subdir1
+   77  mkdir subdir2
+   78  mkdir subdir3
+   79  rmdir subdir3
+   80  cd
+   81  ls test
+   82  subdir1 subdir 2
+   83  cd test/subdir1
+   84  touch test.txt
+   85  ls
+   86  ls test.txt
+   87  cat > test2.txt
+   88  clear
+   89  date
+   90  pwd
+   91  clear
+   92  man pwd
+   93  history
+   94  clear
+   95  mkdir public_html
+   96  ls
+   97  ls -a
+   98  history
+   99  cat > test2.txt
+  100  gedit test3.txt &
+  101  touch test.txt
+  102  cd ~/test/subdir1
+  103  touch test.txt
+  104  ls
+  105  cat > test2.txt
+  106  gedit test3.txt
+  107  gedit test3.txt &
+  108  cat test3.txt
+  109  less test3.txt
+  110  touch testrm.txt
+  111  rm testrm.txt
+  112  ls .
+  113  ls ..
+  114  mv test2.txt ../subdir2
+  115  cp test3.txt ../subdir2
+  116  pwd
+  117  cp /Accounts/turing/students/s20/hazomu01/test/subdir1/test3.txt /Accounts/turing/students/s20/hazomu01/test/subdir2
+  118  touch test3.txt
+  119  cp ~/test/subdir1/test3.txt ~/test/subdir2
+  120  cd
+  121  find . -name *sub*
+  122  grep -Ril "test" test
+  123  (pwd;history)|cat>>README

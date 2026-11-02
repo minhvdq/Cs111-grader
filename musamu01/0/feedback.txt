@@ -1,36 +1,28 @@
-Testing initiated. Sun Oct 18 11:24:11 PM EDT 2026
+Testing initiated. Mon Nov  2 12:30:19 AM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
-JUnit version 4.13.2
-.Expected output line of the form: "Turn total: 22\s+Roll/Hold[?] Turn total: 22"; Read: "Turn total: 22"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-E
-Time: 4.668
-There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 22\s+Roll/Hold[?] Turn total: 22"; Read: "Turn total: 22"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.TestCase.fail(TestCase.java:223)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:138)
-	at java.lang.Thread.run(Thread.java:748)
-
-FAILURES!!!
-Tests run: 1,  Failures: 1
-
-Testing Statistics:
+Testing ChompGame:
 JUnit version 4.13.2
 .
+Time: 0.012
 
+OK (1 test)
 
+Testing Chomp:
+JUnit version 4.13.2
+.
+Time: 2.128
 
+OK (1 test)
 
-........
-Time: 0.106
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.012
 
-OK (9 tests)
+OK (1 test)
 
-Testing completed. Sun Oct 18 11:24:17 PM EDT 2026
+Testing completed. Mon Nov  2 12:30:24 AM EST 2026

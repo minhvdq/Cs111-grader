@@ -1,0 +1,38 @@
+Testing initiated. Sun Nov  1 11:06:56 PM EST 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.
+Time: 0.016
+
+OK (1 test)
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
+E
+Time: 4.119
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:84)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.012
+
+OK (1 test)
+
+Testing completed. Sun Nov  1 11:07:03 PM EST 2026

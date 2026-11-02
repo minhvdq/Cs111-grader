@@ -1,54 +1,62 @@
-Testing initiated. Sun Oct 18 09:24:23 PM EDT 2026
+Testing initiated. Sun Nov  1 09:09:58 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.Expected output line of the form: "Turn total: 6\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 6     Roll/Hold? (Enter) "
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-E
-Time: 4.021
+.E
+Time: 0.011
 There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 6\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 6     Roll/Hold? (Enter) "
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Expected toString() value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********
+], but instead had returned value [ 01234567
+0********
+1********
+2********
+3********
+4********
+5********
+6********
+7********
+8********]
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.TestCase.fail(TestCase.java:223)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
-	at java.lang.Thread.run(Thread.java:748)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:71)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing Chomp:
 JUnit version 4.13.2
-.
-
-
-
-
-...E.E.E..E.
-Time: 0.112
-There were 4 failures:
-1) testSum(StatisticsJUnitTest)
-java.lang.AssertionError: getSum failed to return the correct data sum.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testSum(StatisticsJUnitTest.java:157)
-2) testResampleMeanPercentiles(StatisticsJUnitTest)
-java.lang.AssertionError: getResampleMeanPercentiles returned a highly unlikely resample mean percentile value.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testResampleMeanPercentiles(StatisticsJUnitTest.java:254)
-3) testMean(StatisticsJUnitTest)
-java.lang.AssertionError: getMean failed to return the correct data mean (average).
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testMean(StatisticsJUnitTest.java:166)
-4) testStdDev(StatisticsJUnitTest)
-java.lang.AssertionError: getStdDev failed to return the correct data population standard deviation.
-	at org.junit.Assert.fail(Assert.java:89)
-	at StatisticsJUnitTest.testStdDev(StatisticsJUnitTest.java:176)
+.E
+Time: 1.114
+There was 1 failure:
+1) test(ChompJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at ChompGame.isLegalChomp(ChompGame.java:22)
+	at Chomp.main(Chomp.java:30)
+	at ChompJUnitTest.test(ChompJUnitTest.java:152)
 
 FAILURES!!!
-Tests run: 9,  Failures: 4
+Tests run: 1,  Failures: 1
 
-Testing completed. Sun Oct 18 09:24:28 PM EDT 2026
+Testing DiceHistogram:
+JUnit version 4.13.2
+.
+Time: 1.013
+
+OK (1 test)
+
+Testing completed. Sun Nov  1 09:10:01 PM EST 2026

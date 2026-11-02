@@ -1,0 +1,257 @@
+/Accounts/turing/students/s30/iddrfu01/eclipse-workspace/cs111
+    1  yppasswd
+    2  yppasswd
+    3  firefox &
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  whoami
+    9  date
+   10  pwd
+   11  clear
+   12  man pwd
+   13  history
+   14  date
+   15  history
+   16  date
+   17  clear
+   18  hooami
+   19  whoami
+   20  whoami
+   21  ls
+   22  mkdir public_html
+   23  ls -a
+   24  ls -a -l
+   25  ls -al
+   26  mkdir test
+   27  mkdir test/subdir1
+   28  cd test
+   29  mkdir subdir2
+   30  mkdir subdir3
+   31  rmdir subdir3
+   32  cd
+   33  ls test
+   34  cd test/subdir1
+   35  touch test.txt
+   36  ls
+   37  cat > test2.txt
+   38  gedit test3.txt &
+   39  clear
+   40  clear
+   41  cat test3.txt
+   42  less test3.txt
+   43  touch testrm.txt
+   44  rm testrm.txt
+   45  ls .
+   46  ls
+   47  ls ..
+   48  mv test2.txt ../subdir2
+   49  cp test3.txt ../subdir2
+   50  pwd
+   51  cp /Accounts/turing/students/s30/iddrfu01/test/subdir1/test3.txt /Accounts/turing/students/s30/iddrfu01/test/subdir2/
+   52  cp test3.txt ../subdir2
+   53  cp ~/test/subdir1/test3.txt  ~/test/subdir2
+   54  cd
+   55  find . -name *sub*
+   56  grep -Ril "test" test
+   57  grep -Ri "test" test
+   58  (pwd; history) | cat >> README
+   59  less README
+   60  pwd
+   61  cd
+   62  pwd
+   63  ls
+   64  cd eclipse-workspace
+   65  ls
+   66  cs111
+   67  cs112
+   68  cd cs111
+   69  (pwd; history) | cat >> README
+/Accounts/turing/students/s30/iddrfu01/eclipse-workspace/cs111
+    1  yppasswd
+    2  yppasswd
+    3  firefox &
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  whoami
+    9  date
+   10  pwd
+   11  clear
+   12  man pwd
+   13  history
+   14  date
+   15  history
+   16  date
+   17  clear
+   18  hooami
+   19  whoami
+   20  whoami
+   21  ls
+   22  mkdir public_html
+   23  ls -a
+   24  ls -a -l
+   25  ls -al
+   26  mkdir test
+   27  mkdir test/subdir1
+   28  cd test
+   29  mkdir subdir2
+   30  mkdir subdir3
+   31  rmdir subdir3
+   32  cd
+   33  ls test
+   34  cd test/subdir1
+   35  touch test.txt
+   36  ls
+   37  cat > test2.txt
+   38  gedit test3.txt &
+   39  clear
+   40  clear
+   41  cat test3.txt
+   42  less test3.txt
+   43  touch testrm.txt
+   44  rm testrm.txt
+   45  ls .
+   46  ls
+   47  ls ..
+   48  mv test2.txt ../subdir2
+   49  cp test3.txt ../subdir2
+   50  pwd
+   51  cp /Accounts/turing/students/s30/iddrfu01/test/subdir1/test3.txt /Accounts/turing/students/s30/iddrfu01/test/subdir2/
+   52  cp test3.txt ../subdir2
+   53  cp ~/test/subdir1/test3.txt  ~/test/subdir2
+   54  cd
+   55  find . -name *sub*
+   56  grep -Ril "test" test
+   57  grep -Ri "test" test
+   58  (pwd; history) | cat >> README
+   59  less README
+   60  pwd
+   61  cd
+   62  pwd
+   63  ls
+   64  cd eclipse-workspace
+   65  ls
+   66  cs111
+   67  cs112
+   68  cd cs111
+   69  (pwd; history) | cat >> README
+   70  less README
+   71  less README
+   72  (pwd; history) | cat >> README
+/Accounts/turing/students/s30/iddrfu01/eclipse-workspace/cs111
+    1  yppasswd
+    2  yppasswd
+    3  firefox &
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  whoami
+    9  date
+   10  pwd
+   11  clear
+   12  man pwd
+   13  history
+   14  date
+   15  history
+   16  date
+   17  clear
+   18  hooami
+   19  whoami
+   20  whoami
+   21  ls
+   22  mkdir public_html
+   23  ls -a
+   24  ls -a -l
+   25  ls -al
+   26  mkdir test
+   27  mkdir test/subdir1
+   28  cd test
+   29  mkdir subdir2
+   30  mkdir subdir3
+   31  rmdir subdir3
+   32  cd
+   33  ls test
+   34  cd test/subdir1
+   35  touch test.txt
+   36  ls
+   37  cat > test2.txt
+   38  gedit test3.txt &
+   39  clear
+   40  clear
+   41  cat test3.txt
+   42  less test3.txt
+   43  touch testrm.txt
+   44  rm testrm.txt
+   45  ls .
+   46  ls
+   47  ls ..
+   48  mv test2.txt ../subdir2
+   49  cp test3.txt ../subdir2
+   50  pwd
+   51  cp /Accounts/turing/students/s30/iddrfu01/test/subdir1/test3.txt /Accounts/turing/students/s30/iddrfu01/test/subdir2/
+   52  cp test3.txt ../subdir2
+   53  cp ~/test/subdir1/test3.txt  ~/test/subdir2
+   54  cd
+   55  find . -name *sub*
+   56  grep -Ril "test" test
+   57  grep -Ri "test" test
+   58  (pwd; history) | cat >> README
+   59  less README
+   60  pwd
+   61  cd
+   62  pwd
+   63  ls
+   64  cd eclipse-workspace
+   65  ls
+   66  cs111
+   67  cs112
+   68  cd cs111
+   69  (pwd; history) | cat >> README
+   70  less README
+   71  less README
+   72  (pwd; history) | cat >> README
+   73  ls
+   74  less README
+   75  ls
+   76  gedit HelloMe.java &
+   77  javac HelloMe.java
+   78  java HelloMe
+   79  HelloMe.java
+   80  clear
+   81  HelloMe.java
+   82  java HelloMe
+   83  echo $SHELL
+   84  ls
+   85  ls -a
+   86  eclipse &
+   87  lw
+   88  pwd
+   89  ls
+   90  cd
+   91  ls
+   92  history
+   93  cd
+   94  cd eclipse-workspace/cs111
+   95  pwd
+   96  ls
+   97  (pwd; history) | cat >> README
+   5. Definitions 
+   
+   i. Compiler: it is a program that changes code into another form the computer can use.
+   ii. Interpreter: It is a program that run code step by step instead of turning the whole program into a code first
+   iii. Java Virtual Machine: it is a program thats runs Java bytecode(an instruction format only the JVM can understand and run)
+   
+   6. Java and Javac: javac is the compiler while java is the command that runs the compiled Java program
+   
+   7. ERRORS 
+   i. Syntax Error: This happens when the code breaks the rule of Java, like a missing spelling of the keyword wrongly
+   ii. A logic Error happens when the program runs, but it gives the wrong answer because my instructions were wrong
+   
+   
+   Honor Pledge:  "I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code."
+   Name: Fuseni Iddrisu
+   ID: 6172579

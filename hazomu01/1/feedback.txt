@@ -1,0 +1,44 @@
+Testing initiated. Sat Oct 31 11:30:58 PM EDT 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.E
+Time: 0.01
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+java.lang.NoSuchMethodError: ChompGame.<init>(II)V
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:44)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.E
+Time: 0.011
+There was 1 failure:
+1) test(ChompJUnitTest)
+java.lang.NoSuchMethodError: Chomp.main([Ljava/lang/String;)V
+	at ChompJUnitTest.test(ChompJUnitTest.java:152)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.E
+Time: 0.011
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+java.lang.NoSuchMethodError: DiceHistogram.main([Ljava/lang/String;)V
+	at DiceHistogramJUnitTest.test(DiceHistogramJUnitTest.java:112)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Sat Oct 31 11:31:00 PM EDT 2026

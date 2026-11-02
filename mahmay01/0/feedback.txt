@@ -1,21 +1,43 @@
-Testing initiated. Sun Oct 18 04:41:50 PM EDT 2026
+Testing initiated. Sun Nov  1 07:16:14 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.The first line of output should have been "You will be player <#>." where <#> is 1 or 2.  Line read: "You will be player 2"
-Testing Statistics:
+.E
+Time: 0.01
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+java.lang.NoSuchMethodError: ChompGame.getCurrentPlayer()I
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:54)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
 JUnit version 4.13.2
 .
+Time: 2.126
 
+OK (1 test)
 
+Testing DiceHistogram:
+JUnit version 4.13.2
+.First line prefix incorrect.  Expecting prefix: "How many rolls? Max count: "  Read: "How many rolls? Max Count: "
+E
+Time: 1.014
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: First line prefix incorrect.  Expecting prefix: "How many rolls? Max count: "  Read: "How many rolls? Max Count: "
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:67)
+	at java.lang.Thread.run(Thread.java:748)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-........
-Time: 0.113
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 04:42:51 PM EDT 2026
+Testing completed. Sun Nov  1 07:16:19 PM EST 2026

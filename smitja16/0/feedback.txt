@@ -1,25 +1,53 @@
-Testing initiated. Sun Oct 18 11:08:54 AM EDT 2026
+Testing initiated. Sun Nov  1 09:40:26 AM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.
-Time: 5.568
+.E
+Time: 0.012
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+junit.framework.AssertionFailedError: Chomp isLegalChomp(4, 9) returns false but should return true.
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:114)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
 
-OK (1 test)
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing Chomp:
 JUnit version 4.13.2
-.
+.E
+Time: 1.422
+There was 1 failure:
+1) test(ChompJUnitTest)
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at ChompGame.isLegalChomp(ChompGame.java:34)
+	at ChompGame.chompAt(ChompGame.java:41)
+	at Chomp.main(Chomp.java:23)
+	at ChompJUnitTest.test(ChompJUnitTest.java:152)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
+Testing DiceHistogram:
+JUnit version 4.13.2
+.Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: "2 *"
+E
+Time: 1.014
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: "2 *"
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:85)
+	at java.lang.Thread.run(Thread.java:748)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-........
-Time: 0.136
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 11:09:01 AM EDT 2026
+Testing completed. Sun Nov  1 09:40:30 AM EST 2026

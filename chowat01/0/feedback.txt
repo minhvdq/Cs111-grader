@@ -1,36 +1,53 @@
-Testing initiated. Sun Oct 18 08:25:33 PM EDT 2026
+Testing initiated. Sun Nov  1 10:55:25 PM EST 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.Expected output line of the form: "Turn total: 21\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 21	Roll/Hold? Turn total: 21"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-E
-Time: 4.591
+.E
+Time: 0.011
 There was 1 failure:
-1) test(PigGameJUnitTest)
-junit.framework.AssertionFailedError: Expected output line of the form: "Turn total: 21\s+Roll/Hold[?] Roll: <roll value>"; Read: "Turn total: 21	Roll/Hold? Turn total: 21"
-where "\s+" means whitespace, and [?] is a pattern match for a single '?' (omit the []).
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.TestCase.fail(TestCase.java:223)
-	at PigGameJUnitTest$1.run(PigGameJUnitTest.java:97)
+1) test(ChompGameJUnitTest)
+java.lang.NoSuchMethodError: ChompGame.checkIfChomped(II)Z
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:120)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
+E
+Time: 4.117
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<[Player 1 chomp? That is not a legal chomp position.]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:84)
 	at java.lang.Thread.run(Thread.java:748)
 
 FAILURES!!!
 Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing DiceHistogram:
 JUnit version 4.13.2
-.
+.Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: " 2*"
+E
+Time: 1.014
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: Line prefix incorrect.  Use format string "%2d ".  Expecting prefix: " 2 "  Read: " 2*"
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:85)
+	at java.lang.Thread.run(Thread.java:748)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-
-
-........
-Time: 0.113
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 08:25:39 PM EDT 2026
+Testing completed. Sun Nov  1 10:55:32 PM EST 2026

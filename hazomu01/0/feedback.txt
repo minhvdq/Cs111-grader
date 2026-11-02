@@ -1,25 +1,44 @@
-Testing initiated. Sun Oct 18 11:46:37 PM EDT 2026
+Testing initiated. Sat Oct 31 11:24:39 PM EDT 2026
 README submitted.
-PigGame.java submitted.
-Statistics.java submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
 Compilation of all java files succeeded.
-Testing PigGame:
+Testing ChompGame:
 JUnit version 4.13.2
-.
-Time: 2.057
+.E
+Time: 0.013
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+java.lang.NoSuchMethodError: ChompGame.<init>(II)V
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:44)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
 
-OK (1 test)
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-Testing Statistics:
+Testing Chomp:
 JUnit version 4.13.2
-.
+.E
+Time: 0.011
+There was 1 failure:
+1) test(ChompJUnitTest)
+java.lang.NoSuchMethodError: Chomp.main([Ljava/lang/String;)V
+	at ChompJUnitTest.test(ChompJUnitTest.java:152)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
+Testing DiceHistogram:
+JUnit version 4.13.2
+.E
+Time: 0.011
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+java.lang.NoSuchMethodError: DiceHistogram.main([Ljava/lang/String;)V
+	at DiceHistogramJUnitTest.test(DiceHistogramJUnitTest.java:112)
 
+FAILURES!!!
+Tests run: 1,  Failures: 1
 
-........
-Time: 0.131
-
-OK (9 tests)
-
-Testing completed. Sun Oct 18 11:46:40 PM EDT 2026
+Testing completed. Sat Oct 31 11:24:41 PM EDT 2026
