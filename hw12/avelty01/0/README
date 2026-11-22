@@ -1,0 +1,122 @@
+/Accounts/turing/students/s27/avelty01
+   21  whoami
+   22  date
+   23  pwd
+   24  clear
+   25  man pwd
+   26  history
+   27  hooami
+   28  whoami
+   29  ls
+   30  ls -a
+   31  ls -a -l
+   32  ls -al
+   33  mkdir test
+   34  mkdirtest/subdir1
+   35  mkdir test/subdir1
+   36  cd test
+   37  ls
+   38  mkdir subdir2
+   39  mkdir subdir3
+   40  rmdir subdir3
+   41  cd
+   42  ls test
+   43  cd test/subdir1
+   44  touch test.txt
+   45  ls
+   46  cat > test2.txt
+   47  gedit test3.txt &
+   48  cat test3.txt
+   49  cat > test3.txt
+   50  less test3.txt
+   51  touch testrm.txt
+   52  rm testrm.txt
+   53  ls
+   54  ls ..
+   55  mv test2.txt ../subdir1
+   56  mv test2.txt ../subdir2
+   57  cp test3.txt ../subdir2
+   58  pwd
+   59  cp /Accounts/turing/students/s27/avelty01/test/subdir1/test3.txt /Accounts/turing/students/s27/avelty01/test/subdir2
+   60  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   61  cd
+   62  find . -name *sub*
+   63  grep -Ril "test" test
+   64  history
+   65  yppasswd
+   66  whoami
+   67  date
+   68  pwd
+   69  clear
+   70  rm -r test
+   71  mkdir test
+   72  mkdir test
+   73  rm -r test
+   74  history - c && history -w
+   75  yppasswd
+   76  whoami
+   77  date
+   78  pwd
+   79  clear
+   80  man pwd
+   81  history
+   82  hoooami
+   83  whoami
+   84  ls
+   85  ls -a
+   86  ls -a -l
+   87  ls -al
+   88  ls - al
+   89  ls -al
+   90  mkdir test
+   91  mkdir test/subdir1
+   92  cd test
+   93  ls
+   94  mkdir subdir2
+   95  mkdir subdir3
+   96  rmdir subdir3
+   97  cd
+   98  ls test
+   99  cd test/subdir
+  100  cd test/subdir1
+  101  touch test.txt
+  102  ls
+  103  cat > test2.txt
+  104  gedit test3.txt &
+  105  cat > test3.txt
+  106  less test3.txt
+  107  touch testrm.txt
+  108  rm testrm.txt
+  109  ls
+  110  ls ..
+  111  mv test2.txt ../subdir2
+  112  cp test3.txt ../subdir2
+  113  pwd
+  114  cp /Accounts/turing/students/s27/avelty01/test/subdir1/test3.txt /Accounts/turing/students/s27/avelty01//test/subdir2
+  115  cp ~/test/subdir1/test3.txt ~/test/subdir2
+  116  cd
+  117  find . -name *sub*
+  118  grep - Ril "test" test
+  119  grep -Ril "test" test
+  120  (pwd; history) | cat >> README
+  In your own words, define the terms:
+compiler
+A compiler translates high-level coding languages like python into the low-level binary code that the computer can read. A compiler translates the source code all at once, then the program runs.
+interpreter
+An interpreter is similar to a compiler in that it translates high-level code down to lower levels. However, an interpreter translates the code line-by-line as it is running.
+Java Virtual Machine (JVM)
+A JVM takes java code and converts it to machine code based upon the operating system/hardware being used. This makes porting code much easier.
+What do the commands "java" and "javac" have to do with the previous terms?
+The command “javac” is short for “java compiler”, and it translates java source code into a lower level language.
+
+The command “java” starts up the java environment.
+
+In your own words, describe these errors.  When is each type of error encountered in the programming process (e.g. editing stage, compilation stage, execution stage, etc.)?
+syntax error
+A syntax error occurs when the code violates the rules/grammar of the coding language and prevents it from running. 
+logic error
+A logic error is when the code runs, but does not perform its intended function. There is a valid block of code, but some flaw in the reasoning or sequence of commands leads to an unintended or incomplete output. These are often more difficult to detect because the code still completes.
+
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of The Honor Code
+Tyler Avellino
+6144249

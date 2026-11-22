@@ -1,0 +1,109 @@
+/Accounts/turing/students/s30/saucma01
+    1  yppasswd
+    2  firefox & 
+    3  firefox
+    4  firefox
+    5  firefox &
+    6  g
+    7  gedit Hello.java &
+    8  run Hello.java &
+    9  javac Hello.java &
+   10  javac Hello.java
+   11  gedit Hello.java &
+   12  javac Hello.java &
+   13  ls
+   14  Hello.class &
+   15  cs114:~$ firefox &
+   16  gedit Hello.java
+   17  java Hello
+   18  firefox &
+   19  java Hello
+   20  yppasswd
+   21  whoami
+   22  date
+   23  pwd
+   24  clear
+   25  man pwd
+   26  history
+   27  date
+   28  history
+   29  fefox
+   30  man pwd
+   31  man pwd
+   32  clear
+   33  hooami
+   34  whoami
+   35  ls
+   36  mkdir public_html
+   37  ls -a
+   38  ls -a -l
+   39  ls -al
+   40  mkdir test
+   41  Mkdir test
+   42  clear
+   43  mkdir test/subdir1
+   44  cd test
+   45  mkdir subdir2
+   46  mkdir subdir3
+   47  rmdir subdir3
+   48  cd
+   49  ls test
+   50  cd test/subdir1
+   51  touch test.txt
+   52  ls
+   53  cat > test2.txt
+   54  gedit test3.txt &
+   55  cat test3.txt
+   56  less test3.txt
+   57  touch testrm.txt
+   58  rm testrm.txt
+   59  ls .
+   60  ls
+   61  ls . .
+   62  ls..
+   63  ls ..
+   64  mv test2.txt ../subdir2
+   65  cp test3.txt ../subdir2
+   66  pwd
+   67  cp /Accounts/turing/students/s30/saucma01/test/subdir1/test3.txt /Accounts/turing/students/s30/saucma01/test/subdir2/
+   68  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   69  cd
+   70  find . -name *sub*
+   71  grep -Ril "test" test
+   72  grep -Ri "test" test
+   73  (pwd; history) | cat >> README
+
+----   
+
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and I have not witnessed a violation of the Honor Code.
+   
+Name: Matthew Saucedo
+ID: 6168114
+
+----
+
+ 5. In your own words, define the terms:
+
+	1. Compiler: A compiler translates an entire program that a person can read (Java source code) into a bytecode, which can later be executed by the JVM.
+   
+	2. Interpreter: An interpreter translates and executes an entire program one line at a time.
+   
+   	3. Java Virtual Machine (JVM): A Java Virtual Machine is a program that reads and interprets bytecode, allowing it to run on almost any operating system.
+   
+----
+
+ 6. What do the commands "java" and "javac" have to do with the previous terms?
+   
+	The java command uses the JVM and its interpreter. Running something like "java Hello" would load the "Hello.java" file so it can execute the bytecode on the computer.
+	
+	The javac command would run the compiler. Running something like "javac Hello.java" would compile it into "Hello.class".
+
+----
+
+ 7. In your own words, describe these errors. When is each type of error encountered in the programming process (e.g. editing stage, compilation stage, execution stage, etc.)?
+ 
+ 
+	1. Syntax Error: A syntax error occurs when a program's code doesn't follow the grammar rules of Java. It can happen if someone misspells words, misses semicolons, and from even more grammatical errors. This error is detected by the compiler in the compilation stage.
+   
+	2. Logic Error: A logic error happens when a program's code doesn't perform the way that it was intended to. The code works perfectly fine, but it doesn't do the thing that the person wanted it to do. You can only detect this mistake at the execution stage.
+   

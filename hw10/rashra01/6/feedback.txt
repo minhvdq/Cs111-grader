@@ -1,0 +1,62 @@
+Testing initiated. Sun Nov  8 10:30:50 PM EST 2026
+README submitted.
+DiceHistogram.java submitted.
+ChompGame.java submitted.
+Chomp.java submitted.
+Compilation of all java files succeeded.
+Testing ChompGame:
+JUnit version 4.13.2
+.
+
+
+
+
+
+
+
+
+E
+Time: 0.011
+There was 1 failure:
+1) test(ChompGameJUnitTest)
+java.lang.NoSuchMethodError: ChompGame.getRows()I
+	at ChompGameJUnitTest.gameTest(ChompGameJUnitTest.java:45)
+	at ChompGameJUnitTest.test(ChompGameJUnitTest.java:37)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Chomp:
+JUnit version 4.13.2
+.expected:<[ 0123456789]> but was:<[]>
+E
+Time: 4.017
+There was 1 failure:
+1) test(ChompJUnitTest)
+junit.framework.ComparisonFailure: expected:<[ 0123456789]> but was:<[]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:260)
+	at ChompJUnitTest$1.run(ChompJUnitTest.java:86)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing DiceHistogram:
+JUnit version 4.13.2
+.Output line too short.  Expecting prefix: " 2 "
+E
+Time: 1.014
+There was 1 failure:
+1) test(DiceHistogramJUnitTest)
+junit.framework.AssertionFailedError: Output line too short.  Expecting prefix: " 2 "
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at DiceHistogramJUnitTest$1.run(DiceHistogramJUnitTest.java:83)
+	at java.lang.Thread.run(Thread.java:748)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Sun Nov  8 10:30:57 PM EST 2026

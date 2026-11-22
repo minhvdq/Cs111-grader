@@ -1,0 +1,152 @@
+
+
+Brayden Farrell
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code.
+6169853 
+
+
+
+
+
+
+
+
+
+/Accounts/turing/students/s30/farrbr04
+    1  yppasswd
+    2  firefox &
+    3  Hello.java
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  java Hello
+    9  history
+   10  cat test3.txt
+   11  less test3.txt
+   12  touch testrm.txt
+   13  rm testrm.txt
+   14  ls .
+   15  ls . .
+   16  ls ..
+   17  mv test2.txt ../subdir2
+   18  cp test3.txt ../subdir2
+   19  pwd
+   20  cp
+   21  cp /Accounts/turing/students/s20/cs121/test/subdir1/test3.txt /Accounts/turing/students/s20/cs121/test/subdir2
+   22  cp
+   23  pwd
+   24  /Accounts/turing/students/s20/nuyuzr01/test/subdir1/test3.txt
+   25  ls ..
+   26  ls ~/test
+   27  ls/Accounts/turing/students/s20/cs121/test/
+   28  pwd
+   29  cp /Accounts/turing/students/s30/farrbr04/test/subdir1/test3.txt /Accounts//turing/students/s30/farrbr04/test/subdir2
+   30  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   31  cd
+   32  find . -name *sub*
+   33  grep -Ril "test" test
+   34  (pwd;history) cat>>README
+   35  (pwd;history) cat>> README
+   36  (pwd;history)|cat>>README
+/Accounts/turing/students/s30/farrbr04
+    3  Hello.java
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  javac Hello.java 
+    7  java Hello
+    8  java Hello
+    9  yppaswd
+   10  yppasswd
+   11  whoami
+   12  date
+   13  pwd
+   14  clear
+   15  1
+   16  2
+   17  man
+   18  man man
+   19  man pwd
+   20  history
+   21  q
+   22  clear
+   23  date
+   24  history
+   25  clear
+   26  date
+   27  history
+   28  date
+   29  history
+   30  clear
+   31  hooami
+   32  whoami
+   33  ls
+   34  mkdir
+   35  public_html
+   36  mkdir public_html
+   37  ls
+   38  ls -a
+   39  .
+   40  ..
+   41  ls -a -l
+   42  ls -al
+   43  mkdir test
+   44  mkdir test/subdir1
+   45  cd test
+   46  ls
+   47  mkdir subdir2
+   48  mkdir subdir3
+   49  rmdir subdir3
+   50  cd
+   51  ls test
+   52  cd test/subdir1
+   53  b
+   54  back
+   55  prev
+   56  cd test
+   57  cd t
+   58  touch
+   59  touch --help
+   60  cat
+   61  cat>test2.txt
+   62  ls
+   63  gedit
+   64  gedit test2.txt 
+   65  test3.txt
+   66  touch test.txt
+   67  ls
+   68  gedit test3.txt
+   69  cat test3.txt 
+   70  less test3.txt
+   71  touch testrm.txt
+   72  rm testrm.txt
+   73  ls .
+   74  ls ..
+   75  mv test2.txt ../subdir2
+   76  mv test2.txt ../subdir2
+   77  mv test2.txt../subdir2
+   78  cat . test2.txt
+   79  cat>test2.txt
+   80  cat test3.txt
+   81  cat test2.txt
+   82  cat>test2.txt
+   83  cat test2.txt
+   84  cat>test2.txt
+   85  cat test.txt
+   86  cat test2.txt
+   87  cat test.txt
+   88  cat test1.txt
+   89  cat test3.txt
+   90  touch test.txt
+   91  ls
+   92  ls ..
+   93  ls .
+   94  mv test2.txt ../subdir2
+   95  cp test3.txt ../subdir2
+   96  pwd
+   97  cp /Accounts/turing/students/s30/farrbr04/test/subdir1/test3.txt /Accounts/turing/students/s30/farrbr04/test/subdir2
+   98  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   99  cd
+  100  find . -name *sub*
+  101  grep -Ril "test" test
+  102  (pwd;history)|cat>>README

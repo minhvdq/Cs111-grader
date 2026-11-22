@@ -1,0 +1,81 @@
+/Accounts/turing/students/s29/pacebr01
+    1  exit
+    2  yppasswd
+    3  yppasswd
+    4  gedit Hello.java &
+    5  ls
+    6  javac Hello.java ls
+    7  javac Hello.java
+    8  ls
+    9  java Hello
+   10  ls
+   11  whoami
+   12  whoami
+   13  whoami
+   14  whoami
+   15  yppasswd
+   16  whoami
+   17  date
+   18  pwd
+   19  clear
+   20  man pwd
+   21  history
+   22  date
+   23  yppasswd
+   24  man pwd
+   25  man pwd
+   26  clear
+   27  hooami
+   28  whoami
+   29  ls
+   30  mkdir public_html
+   31  ls
+   32  ls -a
+   33  ls -a -l
+   34  ls -al
+   35  mkdir test
+   36  Mkdir test
+   37  clear
+   38  mkdir test/subdir1
+   39  cd test
+   40  mkdir subdir2
+   41  mkdir subdir3
+   42  mkdir subdir3
+   43  rmdir subdir3
+   44  cd
+   45  ls test
+   46  cd test/subdir1
+   47  touch test.txt
+   48  ls
+   49  cat > test2.txt
+   50  gedit test3.txt &
+   51  clear
+   52  cat test.txt
+   53  less test3.txt
+   54  touch testrm.txt
+   55  rm testrm.txt
+   56  ls .
+   57  ls
+   58  ls ..
+   59  rm  test3.txt test~
+   60  mv test2.txt
+   61  mv test2.txt ../subdir2
+   62  cp test3.txt ../subdir2
+   63  pwd
+   64  cp /Accounts/turing/faculty/pacebr01/test/subdir1/test3.txt
+   65  cp /Accounts/turing/faculty/pacebr01/test/subdir1/test3.txt
+   66  cp ~/test/subdir1/test3.txt ~/test/subdir2
+   67  cd
+   68  find . -name *sub*
+   69  grep -Ril "test" test
+   70  grep -Ri "test" test
+   I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code.
+   Bryce Pace
+   6160184
+   A compiler is a programming tool that translates high-level source code into machine code.
+   An interpreter is a compiler that translates the code line-by-line.
+   A JVM is a Java Virtual Machine, which is a type of compiler.
+   The javac command is used for compiling Welcome.java, and the java command is ised for executing the bytecode.
+   A syntax error is an error made in the creation of code, such as when a string of code is omitted or mistyped.
+   A logic error is an error that results from the code performing a task other than what the programmer intended.
+   71  (pwd; history) | cat >> README

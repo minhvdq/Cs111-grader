@@ -1,0 +1,86 @@
+Testing initiated. Sun Nov 15 01:45:49 PM EST 2026
+README submitted.
+Choose.java submitted.
+Maze.java submitted.
+NQueensPuzzle.java submitted.
+Compilation of all java files succeeded.
+Testing Choose:
+JUnit version 4.13.2
+.
+Time: 0.01
+
+OK (1 test)
+
+Testing Maze:
+JUnit version 4.13.2
+.Testing maze with 19 rows and 12 columns...
+E
+Time: 0.017
+There was 1 failure:
+1) test(MazeJUnitTest)
+java.lang.AssertionError: Your solution does not have the correct grid value for row 0, col 2.
+Correct value: 2    Your value: 1
+Correctly solved maze:
+#.#######################
+#.#  .....#...#         #
+#.###.###.#.#.# ####### #
+#...#...#.#.#.#     # # #
+###.###.#.#.#.# ### # # #
+# #.....#...#.# #   #   #
+# ###########.### #######
+#     #...  #...#       #
+### ###.#.#####.### ### #
+#   #...#...  #...# #   #
+# ###.#####.# ###.### # #
+#.....# #...# #...#   # #
+#.##### #.### #.### #####
+#.....# #.#   #...#     #
+#####.# #.### ###.##### #
+# #...# #...# # #.#...# #
+# #.### ###.# # #.#.#.# #
+# #.#     #.#   #.#.#.# #
+# #.# ### #.#####.#.#.# #
+# #.#   # #.......#.#.# #
+# #.### # #########.#.# #
+# #...# #...#.......#.# #
+# ###.###.#.#.#######.# #
+#   #...#.#...#     #...#
+# #####.#.######### ###.#
+#.......#.....#     #...#
+#.######### #.# #####.###
+#...#  ...# #.#     #.# #
+###.###.#.###.### # #.# #
+# #.....#...#...# # #.# #
+# #########.# #.### #.# #
+#   #   #...# #...# #...#
+# # ### #.### ###.# ###.#
+# #     #.# # #...#  ...#
+# ### ###.# # #.#####.###
+# #   #...#   #.....#.# #
+# #####.###########.#.# #
+#      .............#...#
+#######################.#
+
+	at org.junit.Assert.fail(Assert.java:89)
+	at MazeJUnitTest.test(MazeJUnitTest.java:317)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing NQueensPuzzle:
+JUnit version 4.13.2
+.Testing 4 queens...
+yay
+yay
+E
+Time: 0.011
+There was 1 failure:
+1) test(NQueensPuzzleJUnitTest)
+java.lang.AssertionError: For 4 queens, a correctly implemented algorithm would have the queen in row 0 have column 1.  However, yours was placed at column 3.
+	at org.junit.Assert.fail(Assert.java:89)
+	at NQueensPuzzleJUnitTest.test(NQueensPuzzleJUnitTest.java:76)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Sun Nov 15 01:45:51 PM EST 2026

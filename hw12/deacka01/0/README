@@ -1,0 +1,69 @@
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation of the Honor Code.
+Katie Deacon
+6157490
+
+	The compiler uses source code written by the programmer to write bytecode that can be understood and executed by the virtual machine.  Because the programmer-written code cannot yet be used by the virtual machine, it must first be written in a lower-level language that it can interpret (compiled).  A compiler translates all of the programmer's code into a file that is then used by the virtual machine.
+	An interpreter translates code more slowly that a compiler because it translates one instruction at a time instead of all at once.  The translated code is written in a language that can be understood and run on a virtual machine.
+	The Java Virtual Machine, or JVM, is an example of an interpreter.  Every chip has a JVM that reads (or interprets) bytecode and then executes what is written, given that there are no errors in the code.
+	
+	Programmers use the "javac" command to compile source code, taking it from a high-level language written by a human to a bytecode that can be interpreted and run.  The command "java" interprets and executes this bytecode.
+	
+	A syntax error occurs in the compilation stage and is detected and located by the compiler.  This type of error is the result of breaking one of Java's rules of code writing, meaning that the code cannot be executed without the errors being fixed.  An example of this would forgetting to put a semicolon at the end of the line or not given an open bracket a closed bracket.  The code is not constructed correctly so it cannot be used by the system.
+	A logic error occurs in the execution stage when code produces a result but it is not the expected or desired result.  The system will not detect logic errors because the code is able to interpreted and executed.  Only a human programmer will be able to identify errors because they are the one who knows what is intended.  An example of a logic error is inputting the incorrect command, producing the incorrect result.
+
+
+/Accounts/turing/students/s29/deacka01
+  103  yppasswd
+  104  whoami
+  105  date
+  106  pwd
+  107  clear
+  108  man pwd
+  109  history
+  110  date
+  111  history
+  112  clear
+  113  hooami
+  114  whoami
+  115  ls
+  116  mkdir public_html
+  117  ls
+  118  ls -a
+  119  ls -a -l
+  120  ls -al
+  121  mkdir test
+  122  clear
+  123  mkdir test/subdir1
+  124  cd test
+  125  mkdir subdir2
+  126  mkdir subdir3
+  127  rmdir subdir3
+  128  cd
+  129  ls test
+  130  cd test/subdir1
+  131  touch test.txt
+  132  ls
+  133  cat > test2.txt
+  134  gedit test3.txt &
+  135  clear
+  136  clear
+  137  cat test3.txxt
+  138  cat test3.txt
+  139  less test.txt 
+  140  less test3.txt
+  141  touch testrm.txt
+  142  rm testrm.txt 
+  143  ls .
+  144  ls
+  145  ls ..
+  146  mv test2.txt ../subdir2
+  147  cp test3.txt ../subdir2
+  148  pwd
+  149  cp /Accounts/turing/students/s29/deacka01/test/subdir1/test3.txt /Accounts/turing/students/s29/deacka01/test/subdir2/
+  150  cp ~/test/subdir1/test3.txt ~/test/subdir2
+  151  cd
+  152  find . -name *sub*
+  153  grep -Ril "test" test
+  154  grep -Ri "test" test
+  155  (pwd; history) | cat >> ~workspace/cs111/README
+  156  (pwd; history) | cat >> README

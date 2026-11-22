@@ -1,0 +1,63 @@
+Testing initiated. Sun Nov 15 09:17:02 PM EST 2026
+README submitted.
+ERROR: Choose.java NOT FOUND.
+Maze.java submitted.
+ERROR: NQueensPuzzle.java NOT FOUND.
+Compilation of all java files succeeded.
+Testing Choose:
+JUnit version 4.13.2
+.E
+Time: 0.01
+There was 1 failure:
+1) test(ChooseJUnitTest)
+java.lang.NoClassDefFoundError: Choose
+	at ChooseJUnitTest.test(ChooseJUnitTest.java:31)
+	... 32 trimmed
+Caused by: java.lang.ClassNotFoundException: Choose
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing Maze:
+JUnit version 4.13.2
+.Testing maze with 16 rows and 22 columns...
+Testing maze with 18 rows and 15 columns...
+Testing maze with 12 rows and 15 columns...
+Testing maze with 26 rows and 19 columns...
+Testing maze with 16 rows and 26 columns...
+Testing maze with 23 rows and 20 columns...
+Testing maze with 11 rows and 17 columns...
+Testing maze with 24 rows and 23 columns...
+Testing maze with 27 rows and 14 columns...
+Testing maze with 29 rows and 20 columns...
+
+Time: 0.026
+
+OK (1 test)
+
+Testing NQueensPuzzle:
+JUnit version 4.13.2
+.Testing 4 queens...
+E
+Time: 0.011
+There was 1 failure:
+1) test(NQueensPuzzleJUnitTest)
+java.lang.NoClassDefFoundError: NQueensPuzzle
+	at NQueensPuzzleJUnitTest.test(NQueensPuzzleJUnitTest.java:73)
+	... 32 trimmed
+Caused by: java.lang.ClassNotFoundException: NQueensPuzzle
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 34 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Sun Nov 15 09:17:03 PM EST 2026

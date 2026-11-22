@@ -1,0 +1,44 @@
+Testing initiated. Sun Nov 15 07:22:45 PM EST 2026
+README submitted.
+Choose.java submitted.
+Maze.java submitted.
+NQueensPuzzle.java submitted.
+Compilation of all java files succeeded.
+Testing Choose:
+JUnit version 4.13.2
+.
+Time: 0.01
+
+OK (1 test)
+
+Testing Maze:
+JUnit version 4.13.2
+.Testing maze with 12 rows and 21 columns...
+Testing maze with 27 rows and 11 columns...
+Testing maze with 10 rows and 29 columns...
+Testing maze with 23 rows and 17 columns...
+Testing maze with 27 rows and 19 columns...
+Testing maze with 26 rows and 20 columns...
+Testing maze with 14 rows and 10 columns...
+Testing maze with 19 rows and 29 columns...
+Testing maze with 20 rows and 15 columns...
+Testing maze with 16 rows and 11 columns...
+
+Time: 0.027
+
+OK (1 test)
+
+Testing NQueensPuzzle:
+JUnit version 4.13.2
+.Testing 4 queens...
+E
+Time: 0.01
+There was 1 failure:
+1) test(NQueensPuzzleJUnitTest)
+java.lang.NoSuchMethodError: NQueensPuzzle.getQueenColumn(I)I
+	at NQueensPuzzleJUnitTest.test(NQueensPuzzleJUnitTest.java:75)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+Testing completed. Sun Nov 15 07:22:47 PM EST 2026

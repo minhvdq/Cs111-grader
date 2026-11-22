@@ -1,0 +1,109 @@
+I affirm that I have upheld the highest principles of honesty and integrity in my academic work and have not witnessed a violation in the honor code
+Jamison Speikes
+6173857
+1. compiler - translates your program from a higher level language to a lower level language
+2. interpreter - translate and executes the program
+3. JVM - A software engine that runs java commands
+4. javac is the original anguage and java is the translated language
+5. A syntax error is hwne there is an error in your code so the program cannot run
+6. A logic error is an error in interpretation but the program will still run/Accounts/turing/students/s30/speija01
+    3  clear
+    4  gedit Hello.java &
+    5  javac Hello.java 
+    6  java Hello
+    7  man
+    8  man man
+    9  nkdir
+   10  clear
+   11  mkdir
+   12  nkdir test
+   13  mkdir test
+   14  test/subdir1
+   15  subdir1
+   16  clear
+   17  mkdir
+   18  mkdir --help
+   19  clear
+   20  mkdir test
+   21  test/subdir1
+   22  mkdir test/subdir1
+   23  cd test
+   24  1s
+   25  1s subdir1
+   26  subdir1
+   27  ls subdir1
+   28  mkdir subdir2
+   29  mkdir subdir3
+   30  rmdir subdir3
+   31  cd
+   32  ls test
+   33  cat>test2.txt This is a test.
+   34  cat>test2.txt This is a test.
+   35  cat>test3.txt This is another test.
+   36  gedit test3.txt &
+   37  clear
+   38  cd test
+   39  cd subdir1
+   40  touch test.txt
+   41  ls test.txt
+   42  cat>test2.txt This is a test.
+   43  gedit test3.txt &
+   44  cat test3.txt
+   45  cat test3.txt This is another test.
+   46  less test3.txt
+   47  clear
+   48  touch test.txt
+   49  ls test.txt
+   50  clear
+   51  touch test.txt
+   52  ls
+   53  cat > test2.txt
+   54  gedit test3.txt &
+   55  cat test3.txt
+   56  touch test3.txt
+   57  cat test3.txt
+   58  ls
+   59  cat > test3.txt
+   60  gedit test3.txt &
+   61  less test3.txt
+   62  mv test2.txt ../subdir2
+   63  cp test3.txt ../subdir2
+   64  cd
+   65  find . -name *sub*
+   66  (pwd;history)|cat>>README
+   67  cd README
+   68  touch README
+   69  (pwd;history)|cat>>README
+   70  cd README
+   71  (pwd; history)|cat>>README
+   72  cd README
+   73  eclispe &
+   74  clear
+   75  eclipse &
+   76  cd
+   77  touch README.
+   78  cd README.
+   79  mkdir README
+   80  (pwd; history)|cat>>README
+   81  cd README
+   82  rm README
+   83  mkdir README
+   84  (pwd; history)|cat>>README
+   85  mkdir README
+   86  cd README
+   87  ls
+   88  ls
+   89  (pwd; history)|cat>>README
+   90  ld
+   91  ls
+   92  clear
+   93  cd
+   94  rm README
+   95  rmdir README
+   96  rm -r README
+   97  rmdir README
+   98  clear
+   99  touch README
+  100  ls README
+  101  cat > README
+  102  (pwd; history)|cat>>README
